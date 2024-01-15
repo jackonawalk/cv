@@ -5,6 +5,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 export const metadata: Metadata = {
   title: "Jack Sellwood",
   description: "Tidying up technology",
@@ -25,6 +27,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body>{children}</body>
       <Analytics />
+      <SpeedInsights/>
     </html>
   );
 }
