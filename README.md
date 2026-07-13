@@ -31,36 +31,16 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 3. Install dependencies:
 
    ```bash
-   yarn install
+   npm install
    ```
 
 4. Start the local Server:
 
    ```bash
-   yarn dev
+   npm run dev
    ```
 
 5. Open the [Config file](./src/data/resume-data.tsx) and make changes
-
-# Run with Docker
-
-Build the container
-
-```
-docker compose build
-```
-
-Run the container
-
-```
-docker compose up -d
-```
-
-Stop the Container
-
-```
-docker compose down 
-```
 
 # License
 
